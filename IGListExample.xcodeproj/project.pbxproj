@@ -15,6 +15,11 @@
 		3C31E783217FD870001A14B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C31E781217FD870001A14B4 /* LaunchScreen.storyboard */; };
 		3C31E78E217FD870001A14B4 /* GListExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E78D217FD870001A14B4 /* GListExampleTests.swift */; };
 		3C31E799217FD870001A14B4 /* GListExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E798217FD870001A14B4 /* GListExampleUITests.swift */; };
+		3C31E7A72180BA54001A14B4 /* IGModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7A62180BA54001A14B4 /* IGModel.swift */; };
+		3C31E7A92180C1E0001A14B4 /* IGModelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7A82180C1E0001A14B4 /* IGModelDataSource.swift */; };
+		3C31E7AB2180C686001A14B4 /* IGLsitSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7AA2180C686001A14B4 /* IGLsitSectionController.swift */; };
+		3C31E7AF21812E16001A14B4 /* IGCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7AD21812E16001A14B4 /* IGCollectionViewCell.swift */; };
+		3C31E7B021812E16001A14B4 /* IGCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C31E7AE21812E16001A14B4 /* IGCollectionViewCell.xib */; };
 		ECA973FE4288E099242C10AC /* Pods_GListExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A5BBDC1AF0F4F1B4E2965E /* Pods_GListExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C31E772217FD86E001A14B4 /* GListExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GListExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C31E772217FD86E001A14B4 /* IGListExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C31E775217FD86E001A14B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C31E777217FD86E001A14B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C31E77A217FD86E001A14B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,12 +49,17 @@
 		3C31E77F217FD870001A14B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C31E782217FD870001A14B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C31E784217FD870001A14B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C31E789217FD870001A14B4 /* GListExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GListExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C31E789217FD870001A14B4 /* IGListExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C31E78D217FD870001A14B4 /* GListExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GListExampleTests.swift; sourceTree = "<group>"; };
 		3C31E78F217FD870001A14B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C31E794217FD870001A14B4 /* GListExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GListExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C31E794217FD870001A14B4 /* IGListExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C31E798217FD870001A14B4 /* GListExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GListExampleUITests.swift; sourceTree = "<group>"; };
 		3C31E79A217FD870001A14B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C31E7A62180BA54001A14B4 /* IGModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGModel.swift; sourceTree = "<group>"; };
+		3C31E7A82180C1E0001A14B4 /* IGModelDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGModelDataSource.swift; sourceTree = "<group>"; };
+		3C31E7AA2180C686001A14B4 /* IGLsitSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGLsitSectionController.swift; sourceTree = "<group>"; };
+		3C31E7AD21812E16001A14B4 /* IGCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C31E7AE21812E16001A14B4 /* IGCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IGCollectionViewCell.xib; sourceTree = "<group>"; };
 		4A0FE598F0AB42BD25129F38 /* Pods-GListExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GListExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GListExample/Pods-GListExample.debug.xcconfig"; sourceTree = "<group>"; };
 		695FC9E3F8E62653BC7BDA82 /* Pods-GListExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GListExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GListExample/Pods-GListExample.release.xcconfig"; sourceTree = "<group>"; };
 		75A5BBDC1AF0F4F1B4E2965E /* Pods_GListExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GListExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +94,7 @@
 		3C31E769217FD86E001A14B4 = {
 			isa = PBXGroup;
 			children = (
-				3C31E774217FD86E001A14B4 /* GListExample */,
+				3C31E774217FD86E001A14B4 /* IGListExample */,
 				3C31E78C217FD870001A14B4 /* GListExampleTests */,
 				3C31E797217FD870001A14B4 /* GListExampleUITests */,
 				3C31E773217FD86E001A14B4 /* Products */,
@@ -96,16 +106,17 @@
 		3C31E773217FD86E001A14B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C31E772217FD86E001A14B4 /* GListExample.app */,
-				3C31E789217FD870001A14B4 /* GListExampleTests.xctest */,
-				3C31E794217FD870001A14B4 /* GListExampleUITests.xctest */,
+				3C31E772217FD86E001A14B4 /* IGListExample.app */,
+				3C31E789217FD870001A14B4 /* IGListExampleTests.xctest */,
+				3C31E794217FD870001A14B4 /* IGListExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C31E774217FD86E001A14B4 /* GListExample */ = {
+		3C31E774217FD86E001A14B4 /* IGListExample */ = {
 			isa = PBXGroup;
 			children = (
+				3C31E7AC21812CE8001A14B4 /* CellView */,
 				3C31E775217FD86E001A14B4 /* AppDelegate.swift */,
 				3C31E777217FD86E001A14B4 /* ViewController.swift */,
 				3C31E779217FD86E001A14B4 /* Main.storyboard */,
@@ -113,8 +124,11 @@
 				3C31E781217FD870001A14B4 /* LaunchScreen.storyboard */,
 				3C31E784217FD870001A14B4 /* Info.plist */,
 				3C31E77C217FD86E001A14B4 /* GListExample.xcdatamodeld */,
+				3C31E7A62180BA54001A14B4 /* IGModel.swift */,
+				3C31E7A82180C1E0001A14B4 /* IGModelDataSource.swift */,
+				3C31E7AA2180C686001A14B4 /* IGLsitSectionController.swift */,
 			);
-			path = GListExample;
+			path = IGListExample;
 			sourceTree = "<group>";
 		};
 		3C31E78C217FD870001A14B4 /* GListExampleTests */ = {
@@ -133,6 +147,15 @@
 				3C31E79A217FD870001A14B4 /* Info.plist */,
 			);
 			path = GListExampleUITests;
+			sourceTree = "<group>";
+		};
+		3C31E7AC21812CE8001A14B4 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				3C31E7AD21812E16001A14B4 /* IGCollectionViewCell.swift */,
+				3C31E7AE21812E16001A14B4 /* IGCollectionViewCell.xib */,
+			);
+			path = CellView;
 			sourceTree = "<group>";
 		};
 		77B616D76673569B643E6B9A /* Pods */ = {
@@ -155,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C31E771217FD86E001A14B4 /* GListExample */ = {
+		3C31E771217FD86E001A14B4 /* IGListExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C31E79D217FD870001A14B4 /* Build configuration list for PBXNativeTarget "GListExample" */;
+			buildConfigurationList = 3C31E79D217FD870001A14B4 /* Build configuration list for PBXNativeTarget "IGListExample" */;
 			buildPhases = (
 				20AB38D02CA1186114E0B11D /* [CP] Check Pods Manifest.lock */,
 				3C31E76E217FD86E001A14B4 /* Sources */,
@@ -169,14 +192,14 @@
 			);
 			dependencies = (
 			);
-			name = GListExample;
+			name = IGListExample;
 			productName = GListExample;
-			productReference = 3C31E772217FD86E001A14B4 /* GListExample.app */;
+			productReference = 3C31E772217FD86E001A14B4 /* IGListExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3C31E788217FD870001A14B4 /* GListExampleTests */ = {
+		3C31E788217FD870001A14B4 /* IGListExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C31E7A0217FD870001A14B4 /* Build configuration list for PBXNativeTarget "GListExampleTests" */;
+			buildConfigurationList = 3C31E7A0217FD870001A14B4 /* Build configuration list for PBXNativeTarget "IGListExampleTests" */;
 			buildPhases = (
 				3C31E785217FD870001A14B4 /* Sources */,
 				3C31E786217FD870001A14B4 /* Frameworks */,
@@ -187,14 +210,14 @@
 			dependencies = (
 				3C31E78B217FD870001A14B4 /* PBXTargetDependency */,
 			);
-			name = GListExampleTests;
+			name = IGListExampleTests;
 			productName = GListExampleTests;
-			productReference = 3C31E789217FD870001A14B4 /* GListExampleTests.xctest */;
+			productReference = 3C31E789217FD870001A14B4 /* IGListExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3C31E793217FD870001A14B4 /* GListExampleUITests */ = {
+		3C31E793217FD870001A14B4 /* IGListExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C31E7A3217FD870001A14B4 /* Build configuration list for PBXNativeTarget "GListExampleUITests" */;
+			buildConfigurationList = 3C31E7A3217FD870001A14B4 /* Build configuration list for PBXNativeTarget "IGListExampleUITests" */;
 			buildPhases = (
 				3C31E790217FD870001A14B4 /* Sources */,
 				3C31E791217FD870001A14B4 /* Frameworks */,
@@ -205,9 +228,9 @@
 			dependencies = (
 				3C31E796217FD870001A14B4 /* PBXTargetDependency */,
 			);
-			name = GListExampleUITests;
+			name = IGListExampleUITests;
 			productName = GListExampleUITests;
-			productReference = 3C31E794217FD870001A14B4 /* GListExampleUITests.xctest */;
+			productReference = 3C31E794217FD870001A14B4 /* IGListExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +256,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3C31E76D217FD86E001A14B4 /* Build configuration list for PBXProject "GListExample" */;
+			buildConfigurationList = 3C31E76D217FD86E001A14B4 /* Build configuration list for PBXProject "IGListExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -246,9 +269,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C31E771217FD86E001A14B4 /* GListExample */,
-				3C31E788217FD870001A14B4 /* GListExampleTests */,
-				3C31E793217FD870001A14B4 /* GListExampleUITests */,
+				3C31E771217FD86E001A14B4 /* IGListExample */,
+				3C31E788217FD870001A14B4 /* IGListExampleTests */,
+				3C31E793217FD870001A14B4 /* IGListExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C31E7B021812E16001A14B4 /* IGCollectionViewCell.xib in Resources */,
 				3C31E783217FD870001A14B4 /* LaunchScreen.storyboard in Resources */,
 				3C31E780217FD870001A14B4 /* Assets.xcassets in Resources */,
 				3C31E77B217FD86E001A14B4 /* Main.storyboard in Resources */,
@@ -343,8 +367,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C31E77E217FD86E001A14B4 /* GListExample.xcdatamodeld in Sources */,
+				3C31E7AB2180C686001A14B4 /* IGLsitSectionController.swift in Sources */,
+				3C31E7AF21812E16001A14B4 /* IGCollectionViewCell.swift in Sources */,
+				3C31E7A72180BA54001A14B4 /* IGModel.swift in Sources */,
 				3C31E778217FD86E001A14B4 /* ViewController.swift in Sources */,
 				3C31E776217FD86E001A14B4 /* AppDelegate.swift in Sources */,
+				3C31E7A92180C1E0001A14B4 /* IGModelDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,12 +397,12 @@
 /* Begin PBXTargetDependency section */
 		3C31E78B217FD870001A14B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3C31E771217FD86E001A14B4 /* GListExample */;
+			target = 3C31E771217FD86E001A14B4 /* IGListExample */;
 			targetProxy = 3C31E78A217FD870001A14B4 /* PBXContainerItemProxy */;
 		};
 		3C31E796217FD870001A14B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3C31E771217FD86E001A14B4 /* GListExample */;
+			target = 3C31E771217FD86E001A14B4 /* IGListExample */;
 			targetProxy = 3C31E795217FD870001A14B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -567,7 +595,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GListExample.app/GListExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGListExample.app/IGListExample";
 			};
 			name = Debug;
 		};
@@ -587,7 +615,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GListExample.app/GListExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGListExample.app/IGListExample";
 			};
 			name = Release;
 		};
@@ -632,7 +660,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C31E76D217FD86E001A14B4 /* Build configuration list for PBXProject "GListExample" */ = {
+		3C31E76D217FD86E001A14B4 /* Build configuration list for PBXProject "IGListExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C31E79B217FD870001A14B4 /* Debug */,
@@ -641,7 +669,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C31E79D217FD870001A14B4 /* Build configuration list for PBXNativeTarget "GListExample" */ = {
+		3C31E79D217FD870001A14B4 /* Build configuration list for PBXNativeTarget "IGListExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C31E79E217FD870001A14B4 /* Debug */,
@@ -650,7 +678,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C31E7A0217FD870001A14B4 /* Build configuration list for PBXNativeTarget "GListExampleTests" */ = {
+		3C31E7A0217FD870001A14B4 /* Build configuration list for PBXNativeTarget "IGListExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C31E7A1217FD870001A14B4 /* Debug */,
@@ -659,7 +687,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C31E7A3217FD870001A14B4 /* Build configuration list for PBXNativeTarget "GListExampleUITests" */ = {
+		3C31E7A3217FD870001A14B4 /* Build configuration list for PBXNativeTarget "IGListExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C31E7A4217FD870001A14B4 /* Debug */,
