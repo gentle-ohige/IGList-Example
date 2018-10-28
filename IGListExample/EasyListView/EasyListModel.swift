@@ -9,7 +9,7 @@
 import UIKit
 import IGListKit
 
-class IGModel {
+class EasyListModel {
     private var identifier: String = UUID().uuidString
     private(set) var firstName: String
     private(set) var lastName: String
@@ -24,13 +24,13 @@ class IGModel {
     }
 }
 
-extension IGModel: ListDiffable {
+extension EasyListModel: ListDiffable {
     func  diffIdentifier() -> NSObjectProtocol {
         return identifier as NSString
     }
     
     func isEqual(toDiffableObject object: ListDiffable?) -> Bool {
-        guard let object = object as? IGModel else {
+        guard let object = object as? EasyListModel else {
             return false
         }
         return self.identifier == object.identifier

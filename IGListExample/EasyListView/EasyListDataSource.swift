@@ -9,31 +9,36 @@
 import UIKit
 import IGListKit
 
-class IGModelDataSource:NSObject, ListAdapterDataSource {
+class EasyListDataSource:NSObject, ListAdapterDataSource {
 
 
     
     func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
-        return [IGModel(firstName: "YAMADA",
+        return [EasyListModel(firstName: "YAMADA",
                         lastName: "TAROU",
                         nickname: "SpiderMan",
                         icon: ""),
-                IGModel(firstName: "SHIMIZU",
+                LabelListModel(title: "TESTLABEL"),
+                EasyListModel(firstName: "SHIMIZU",
                         lastName: "NANAMI",
                         nickname: "Batman",
                         icon: ""),
-                IGModel(firstName: "TANAKA",
+                EasyListModel(firstName: "TANAKA",
                         lastName: "MAKOTO",
                         nickname: "Ironman",
                         icon: ""),
-                IGModel(firstName: "SATOU",
+                EasyListModel(firstName: "SATOU",
                         lastName: "Banner",
                         nickname: "Incredible Hulk",
                         icon: "")]
     }
     
     func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
-        return IGLsitSectionController()
+        if object is EasyListModel {
+            return EasyListSectionController()
+        } else{
+            return LabelListSectionController()
+        }
     }
     
     func emptyView(for listAdapter: ListAdapter) -> UIView? {

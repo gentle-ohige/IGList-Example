@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import GListExample
+@testable import IGListExample
 
 class GListExampleTests: XCTestCase {
 

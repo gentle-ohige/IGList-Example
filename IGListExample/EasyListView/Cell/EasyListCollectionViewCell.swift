@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IGCollectionViewCell: UICollectionViewCell {
+class EasyListCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var nikeName: UILabel!
     
@@ -16,7 +16,8 @@ class IGCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
     }
 
-    func updateWith(model: IGModel)  {
+    func updateWith(model: EasyListModel)  {
         nikeName.text = model.nickname
     }
+    
 }

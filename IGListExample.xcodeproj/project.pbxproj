@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C17FEC821842DDB004EF683 /* EasyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FEC721842DDB004EF683 /* EasyListViewController.swift */; };
+		3C17FED021843979004EF683 /* StroyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FECF21843979004EF683 /* StroyboardExtension.swift */; };
+		3C17FED221843BC3004EF683 /* ViewControllerExtension+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FED121843BC3004EF683 /* ViewControllerExtension+Protocols.swift */; };
+		3C17FED521843C51004EF683 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FED421843C51004EF683 /* ViewControllerExtension.swift */; };
+		3C17FEDF218485E5004EF683 /* LastNameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FEDD218485E5004EF683 /* LastNameCollectionViewCell.swift */; };
+		3C17FEE0218485E5004EF683 /* LastNameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C17FEDE218485E5004EF683 /* LastNameCollectionViewCell.xib */; };
+		3C17FEE321848636004EF683 /* FirstNameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FEE121848636004EF683 /* FirstNameCollectionViewCell.swift */; };
+		3C17FEE421848636004EF683 /* FirstNameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C17FEE221848636004EF683 /* FirstNameCollectionViewCell.xib */; };
+		3C17FEE62184AB8A004EF683 /* LabelListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FEE52184AB8A004EF683 /* LabelListModel.swift */; };
+		3C17FEE82184AEDD004EF683 /* LabelListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FEE72184AEDD004EF683 /* LabelListSectionController.swift */; };
+		3C17FEEB2184B22C004EF683 /* LabelListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FEE92184B22C004EF683 /* LabelListCollectionViewCell.swift */; };
+		3C17FEEC2184B22C004EF683 /* LabelListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C17FEEA2184B22C004EF683 /* LabelListCollectionViewCell.xib */; };
 		3C31E776217FD86E001A14B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E775217FD86E001A14B4 /* AppDelegate.swift */; };
-		3C31E778217FD86E001A14B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E777217FD86E001A14B4 /* ViewController.swift */; };
+		3C31E778217FD86E001A14B4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E777217FD86E001A14B4 /* MainViewController.swift */; };
 		3C31E77B217FD86E001A14B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C31E779217FD86E001A14B4 /* Main.storyboard */; };
 		3C31E77E217FD86E001A14B4 /* GListExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E77C217FD86E001A14B4 /* GListExample.xcdatamodeld */; };
 		3C31E780217FD870001A14B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C31E77F217FD870001A14B4 /* Assets.xcassets */; };
 		3C31E783217FD870001A14B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C31E781217FD870001A14B4 /* LaunchScreen.storyboard */; };
-		3C31E78E217FD870001A14B4 /* GListExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E78D217FD870001A14B4 /* GListExampleTests.swift */; };
-		3C31E799217FD870001A14B4 /* GListExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E798217FD870001A14B4 /* GListExampleUITests.swift */; };
-		3C31E7A72180BA54001A14B4 /* IGModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7A62180BA54001A14B4 /* IGModel.swift */; };
-		3C31E7A92180C1E0001A14B4 /* IGModelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7A82180C1E0001A14B4 /* IGModelDataSource.swift */; };
-		3C31E7AB2180C686001A14B4 /* IGLsitSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7AA2180C686001A14B4 /* IGLsitSectionController.swift */; };
-		3C31E7AF21812E16001A14B4 /* IGCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7AD21812E16001A14B4 /* IGCollectionViewCell.swift */; };
-		3C31E7B021812E16001A14B4 /* IGCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C31E7AE21812E16001A14B4 /* IGCollectionViewCell.xib */; };
+		3C31E78E217FD870001A14B4 /* IGListExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E78D217FD870001A14B4 /* IGListExampleTests.swift */; };
+		3C31E799217FD870001A14B4 /* IGListExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E798217FD870001A14B4 /* IGListExampleUITests.swift */; };
+		3C31E7A72180BA54001A14B4 /* EasyListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7A62180BA54001A14B4 /* EasyListModel.swift */; };
+		3C31E7A92180C1E0001A14B4 /* EasyListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7A82180C1E0001A14B4 /* EasyListDataSource.swift */; };
+		3C31E7AB2180C686001A14B4 /* EasyListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7AA2180C686001A14B4 /* EasyListSectionController.swift */; };
+		3C31E7AF21812E16001A14B4 /* EasyListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31E7AD21812E16001A14B4 /* EasyListCollectionViewCell.swift */; };
+		3C31E7B021812E16001A14B4 /* EasyListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C31E7AE21812E16001A14B4 /* EasyListCollectionViewCell.xib */; };
 		ECA973FE4288E099242C10AC /* Pods_GListExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A5BBDC1AF0F4F1B4E2965E /* Pods_GListExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,25 +53,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C17FEC721842DDB004EF683 /* EasyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyListViewController.swift; sourceTree = "<group>"; };
+		3C17FECF21843979004EF683 /* StroyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroyboardExtension.swift; sourceTree = "<group>"; };
+		3C17FED121843BC3004EF683 /* ViewControllerExtension+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControllerExtension+Protocols.swift"; sourceTree = "<group>"; };
+		3C17FED421843C51004EF683 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		3C17FEDD218485E5004EF683 /* LastNameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastNameCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C17FEDE218485E5004EF683 /* LastNameCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LastNameCollectionViewCell.xib; sourceTree = "<group>"; };
+		3C17FEE121848636004EF683 /* FirstNameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNameCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C17FEE221848636004EF683 /* FirstNameCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstNameCollectionViewCell.xib; sourceTree = "<group>"; };
+		3C17FEE52184AB8A004EF683 /* LabelListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelListModel.swift; sourceTree = "<group>"; };
+		3C17FEE72184AEDD004EF683 /* LabelListSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelListSectionController.swift; sourceTree = "<group>"; };
+		3C17FEE92184B22C004EF683 /* LabelListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelListCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C17FEEA2184B22C004EF683 /* LabelListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelListCollectionViewCell.xib; sourceTree = "<group>"; };
 		3C31E772217FD86E001A14B4 /* IGListExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C31E775217FD86E001A14B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C31E777217FD86E001A14B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C31E777217FD86E001A14B4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3C31E77A217FD86E001A14B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C31E77D217FD86E001A14B4 /* GListExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GListExample.xcdatamodel; sourceTree = "<group>"; };
 		3C31E77F217FD870001A14B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C31E782217FD870001A14B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C31E784217FD870001A14B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C31E789217FD870001A14B4 /* IGListExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C31E78D217FD870001A14B4 /* GListExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GListExampleTests.swift; sourceTree = "<group>"; };
+		3C31E78D217FD870001A14B4 /* IGListExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListExampleTests.swift; sourceTree = "<group>"; };
 		3C31E78F217FD870001A14B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C31E794217FD870001A14B4 /* IGListExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C31E798217FD870001A14B4 /* GListExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GListExampleUITests.swift; sourceTree = "<group>"; };
+		3C31E798217FD870001A14B4 /* IGListExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListExampleUITests.swift; sourceTree = "<group>"; };
 		3C31E79A217FD870001A14B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C31E7A62180BA54001A14B4 /* IGModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGModel.swift; sourceTree = "<group>"; };
-		3C31E7A82180C1E0001A14B4 /* IGModelDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGModelDataSource.swift; sourceTree = "<group>"; };
-		3C31E7AA2180C686001A14B4 /* IGLsitSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGLsitSectionController.swift; sourceTree = "<group>"; };
-		3C31E7AD21812E16001A14B4 /* IGCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGCollectionViewCell.swift; sourceTree = "<group>"; };
-		3C31E7AE21812E16001A14B4 /* IGCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IGCollectionViewCell.xib; sourceTree = "<group>"; };
+		3C31E7A62180BA54001A14B4 /* EasyListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyListModel.swift; sourceTree = "<group>"; };
+		3C31E7A82180C1E0001A14B4 /* EasyListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyListDataSource.swift; sourceTree = "<group>"; };
+		3C31E7AA2180C686001A14B4 /* EasyListSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyListSectionController.swift; sourceTree = "<group>"; };
+		3C31E7AD21812E16001A14B4 /* EasyListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyListCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C31E7AE21812E16001A14B4 /* EasyListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EasyListCollectionViewCell.xib; sourceTree = "<group>"; };
 		4A0FE598F0AB42BD25129F38 /* Pods-GListExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GListExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GListExample/Pods-GListExample.debug.xcconfig"; sourceTree = "<group>"; };
 		695FC9E3F8E62653BC7BDA82 /* Pods-GListExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GListExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GListExample/Pods-GListExample.release.xcconfig"; sourceTree = "<group>"; };
 		75A5BBDC1AF0F4F1B4E2965E /* Pods_GListExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GListExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,12 +115,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C17FECA21842E1A004EF683 /* EasyListView */ = {
+			isa = PBXGroup;
+			children = (
+				3C31E7A62180BA54001A14B4 /* EasyListModel.swift */,
+				3C17FED621848524004EF683 /* Cell */,
+				3C31E7A82180C1E0001A14B4 /* EasyListDataSource.swift */,
+				3C31E7AA2180C686001A14B4 /* EasyListSectionController.swift */,
+				3C17FEC721842DDB004EF683 /* EasyListViewController.swift */,
+				3C17FEE52184AB8A004EF683 /* LabelListModel.swift */,
+				3C17FEE72184AEDD004EF683 /* LabelListSectionController.swift */,
+			);
+			path = EasyListView;
+			sourceTree = "<group>";
+		};
+		3C17FECB2184327D004EF683 /* TestUtility */ = {
+			isa = PBXGroup;
+			children = (
+				3C17FECC2184329F004EF683 /* Label */,
+			);
+			path = TestUtility;
+			sourceTree = "<group>";
+		};
+		3C17FECC2184329F004EF683 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		3C17FECE21843915004EF683 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C17FED421843C51004EF683 /* ViewControllerExtension.swift */,
+				3C17FECF21843979004EF683 /* StroyboardExtension.swift */,
+				3C17FED121843BC3004EF683 /* ViewControllerExtension+Protocols.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3C17FED621848524004EF683 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3C31E7AD21812E16001A14B4 /* EasyListCollectionViewCell.swift */,
+				3C31E7AE21812E16001A14B4 /* EasyListCollectionViewCell.xib */,
+				3C17FEDD218485E5004EF683 /* LastNameCollectionViewCell.swift */,
+				3C17FEDE218485E5004EF683 /* LastNameCollectionViewCell.xib */,
+				3C17FEE121848636004EF683 /* FirstNameCollectionViewCell.swift */,
+				3C17FEE221848636004EF683 /* FirstNameCollectionViewCell.xib */,
+				3C17FEE92184B22C004EF683 /* LabelListCollectionViewCell.swift */,
+				3C17FEEA2184B22C004EF683 /* LabelListCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		3C31E769217FD86E001A14B4 = {
 			isa = PBXGroup;
 			children = (
+				3C17FECB2184327D004EF683 /* TestUtility */,
 				3C31E774217FD86E001A14B4 /* IGListExample */,
-				3C31E78C217FD870001A14B4 /* GListExampleTests */,
-				3C31E797217FD870001A14B4 /* GListExampleUITests */,
+				3C31E78C217FD870001A14B4 /* IGListExampleTests */,
+				3C31E797217FD870001A14B4 /* IGListExampleUITests */,
 				3C31E773217FD86E001A14B4 /* Products */,
 				77B616D76673569B643E6B9A /* Pods */,
 				A1F960D354C219F6BDE2C8F8 /* Frameworks */,
@@ -116,46 +195,35 @@
 		3C31E774217FD86E001A14B4 /* IGListExample */ = {
 			isa = PBXGroup;
 			children = (
-				3C31E7AC21812CE8001A14B4 /* CellView */,
+				3C17FECE21843915004EF683 /* Extension */,
+				3C17FECA21842E1A004EF683 /* EasyListView */,
 				3C31E775217FD86E001A14B4 /* AppDelegate.swift */,
-				3C31E777217FD86E001A14B4 /* ViewController.swift */,
+				3C31E777217FD86E001A14B4 /* MainViewController.swift */,
 				3C31E779217FD86E001A14B4 /* Main.storyboard */,
 				3C31E77F217FD870001A14B4 /* Assets.xcassets */,
 				3C31E781217FD870001A14B4 /* LaunchScreen.storyboard */,
 				3C31E784217FD870001A14B4 /* Info.plist */,
 				3C31E77C217FD86E001A14B4 /* GListExample.xcdatamodeld */,
-				3C31E7A62180BA54001A14B4 /* IGModel.swift */,
-				3C31E7A82180C1E0001A14B4 /* IGModelDataSource.swift */,
-				3C31E7AA2180C686001A14B4 /* IGLsitSectionController.swift */,
 			);
 			path = IGListExample;
 			sourceTree = "<group>";
 		};
-		3C31E78C217FD870001A14B4 /* GListExampleTests */ = {
+		3C31E78C217FD870001A14B4 /* IGListExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				3C31E78D217FD870001A14B4 /* GListExampleTests.swift */,
+				3C31E78D217FD870001A14B4 /* IGListExampleTests.swift */,
 				3C31E78F217FD870001A14B4 /* Info.plist */,
 			);
-			path = GListExampleTests;
+			path = IGListExampleTests;
 			sourceTree = "<group>";
 		};
-		3C31E797217FD870001A14B4 /* GListExampleUITests */ = {
+		3C31E797217FD870001A14B4 /* IGListExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3C31E798217FD870001A14B4 /* GListExampleUITests.swift */,
+				3C31E798217FD870001A14B4 /* IGListExampleUITests.swift */,
 				3C31E79A217FD870001A14B4 /* Info.plist */,
 			);
-			path = GListExampleUITests;
-			sourceTree = "<group>";
-		};
-		3C31E7AC21812CE8001A14B4 /* CellView */ = {
-			isa = PBXGroup;
-			children = (
-				3C31E7AD21812E16001A14B4 /* IGCollectionViewCell.swift */,
-				3C31E7AE21812E16001A14B4 /* IGCollectionViewCell.xib */,
-			);
-			path = CellView;
+			path = IGListExampleUITests;
 			sourceTree = "<group>";
 		};
 		77B616D76673569B643E6B9A /* Pods */ = {
@@ -281,9 +349,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C31E7B021812E16001A14B4 /* IGCollectionViewCell.xib in Resources */,
+				3C31E7B021812E16001A14B4 /* EasyListCollectionViewCell.xib in Resources */,
+				3C17FEE0218485E5004EF683 /* LastNameCollectionViewCell.xib in Resources */,
 				3C31E783217FD870001A14B4 /* LaunchScreen.storyboard in Resources */,
 				3C31E780217FD870001A14B4 /* Assets.xcassets in Resources */,
+				3C17FEEC2184B22C004EF683 /* LabelListCollectionViewCell.xib in Resources */,
+				3C17FEE421848636004EF683 /* FirstNameCollectionViewCell.xib in Resources */,
 				3C31E77B217FD86E001A14B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,12 +438,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C31E77E217FD86E001A14B4 /* GListExample.xcdatamodeld in Sources */,
-				3C31E7AB2180C686001A14B4 /* IGLsitSectionController.swift in Sources */,
-				3C31E7AF21812E16001A14B4 /* IGCollectionViewCell.swift in Sources */,
-				3C31E7A72180BA54001A14B4 /* IGModel.swift in Sources */,
-				3C31E778217FD86E001A14B4 /* ViewController.swift in Sources */,
+				3C31E7AB2180C686001A14B4 /* EasyListSectionController.swift in Sources */,
+				3C17FEDF218485E5004EF683 /* LastNameCollectionViewCell.swift in Sources */,
+				3C31E7AF21812E16001A14B4 /* EasyListCollectionViewCell.swift in Sources */,
+				3C31E7A72180BA54001A14B4 /* EasyListModel.swift in Sources */,
+				3C17FEC821842DDB004EF683 /* EasyListViewController.swift in Sources */,
+				3C31E778217FD86E001A14B4 /* MainViewController.swift in Sources */,
+				3C17FEE82184AEDD004EF683 /* LabelListSectionController.swift in Sources */,
+				3C17FED021843979004EF683 /* StroyboardExtension.swift in Sources */,
+				3C17FEE62184AB8A004EF683 /* LabelListModel.swift in Sources */,
+				3C17FED521843C51004EF683 /* ViewControllerExtension.swift in Sources */,
+				3C17FEE321848636004EF683 /* FirstNameCollectionViewCell.swift in Sources */,
+				3C17FED221843BC3004EF683 /* ViewControllerExtension+Protocols.swift in Sources */,
+				3C17FEEB2184B22C004EF683 /* LabelListCollectionViewCell.swift in Sources */,
 				3C31E776217FD86E001A14B4 /* AppDelegate.swift in Sources */,
-				3C31E7A92180C1E0001A14B4 /* IGModelDataSource.swift in Sources */,
+				3C31E7A92180C1E0001A14B4 /* EasyListDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C31E78E217FD870001A14B4 /* GListExampleTests.swift in Sources */,
+				3C31E78E217FD870001A14B4 /* IGListExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C31E799217FD870001A14B4 /* GListExampleUITests.swift in Sources */,
+				3C31E799217FD870001A14B4 /* IGListExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,15 +629,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GListExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IGListExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecmets.GListExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecmets.IGListExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -567,15 +647,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GListExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IGListExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecmets.GListExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecmets.IGListExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
